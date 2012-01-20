@@ -1,0 +1,24 @@
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\AppLauncher.exe
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\AppLauncher.pdb
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.frmMain.resources
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.Properties.Resources.resources
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.csproj.GenerateResource.Cache
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.exe
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.pdb
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\Keypad.dll
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\Keypad.pdb
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.exe
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.pdb
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.frmMain.resources
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.Properties.Resources.resources
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\obj\Debug\AppLauncher.csproj.GenerateResource.Cache
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\AppLauncher.exe
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\AppLauncher.pdb
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\Keypad.dll
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\Keypad.pdb
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\TAFactory.IconPack.dll
+C:\Users\mike\Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\TAFactory.IconPack.pdb
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\TAFactory.IconPack.dll
+C:\Users\hellyerm\Documents\My Dropbox\Projects\Visual Studio 2008\AppLauncher\AppLauncher\bin\Debug\TAFactory.IconPack.pdb

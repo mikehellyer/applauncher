@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLauncher", "AppLauncher\AppLauncher.csproj", "{9C6603D3-664F-47D4-90F4-8BB924B25322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keypad", "..\ePOS\Keypad\Keypad.csproj", "{C12C8CCC-EBF1-4549-B328-207CFD9DB68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconPack", "..\IconPack\IconPack.csproj", "{92E382A2-74B6-4342-B9D9-BE6843F2CE22}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{4DFFC3BB-9C45-4C09-8E2B-91967789ED06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C6603D3-664F-47D4-90F4-8BB924B25322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6603D3-664F-47D4-90F4-8BB924B25322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6603D3-664F-47D4-90F4-8BB924B25322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6603D3-664F-47D4-90F4-8BB924B25322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12C8CCC-EBF1-4549-B328-207CFD9DB68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12C8CCC-EBF1-4549-B328-207CFD9DB68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12C8CCC-EBF1-4549-B328-207CFD9DB68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12C8CCC-EBF1-4549-B328-207CFD9DB68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E382A2-74B6-4342-B9D9-BE6843F2CE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E382A2-74B6-4342-B9D9-BE6843F2CE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E382A2-74B6-4342-B9D9-BE6843F2CE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E382A2-74B6-4342-B9D9-BE6843F2CE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFFC3BB-9C45-4C09-8E2B-91967789ED06}.Debug|Any CPU.ActiveCfg = Debug
+		{4DFFC3BB-9C45-4C09-8E2B-91967789ED06}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

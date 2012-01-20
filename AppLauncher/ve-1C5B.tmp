@@ -1,0 +1,135 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Diagnostics;
+using System.Xml;
+
+namespace AppLauncher
+{
+    public partial class frmMain : Form
+    {
+        
+
+
+        public frmMain()
+        {
+            InitializeComponent();
+            ReadInData();
+    
+
+        }
+
+
+        void ReadInData()
+        {
+            // Read file in C:\\ test2
+            XmlReader reader = XmlReader.Create("C:\\test2\\Data.xml");
+            // Opens the document
+            
+            while (reader.Read())
+            {
+                XmlNodeType nType = reader.NodeType;
+                
+                if (nType == XmlNodeType.Element && reader.Name == "Button1")
+                {
+                    
+                    
+                    while (reader.NodeType != XmlNodeType.EndElement)
+                    {
+                        reader.Read();
+                        if (reader.Name == "text")
+                        {
+                            while (reader.NodeType != XmlNodeType.EndElement)
+                            {
+                                reader.Read();
+                                if (reader.NodeType == XmlNodeType.Text)
+                                {
+                                    launcherMenuButton1.SetButtonText(reader.Value);
+                                    MessageBox.Show(reader.Value.ToString());
+                                }
+                                reader.Read();
+                            }
+
+                        
+                         }
+
+                        if (reader.Name == "path")
+                        {
+                            while (reader.NodeType != XmlNodeType.EndElement)
+                            {
+                                reader.Read();
+                                if (reader.NodeType == XmlNodeType.Text)
+                                {
+                                    launcherMenuButton1.SetButtonPath(reader.Value);
+                                    MessageBox.Show(reader.Value.ToString());
+                                }
+                                reader.Read();
+
+                            }
+
+
+                        }
+
+
+                        reader.Read();
+                    }
+                    
+                }
+
+                
+
+            }
+
+            reader.Close();       
+        }
+
+        void WriteOutData()
+        {
+            // Create a new file in C:\\ test2
+            XmlWriterSettings settings = new XmlWriterSettings();
+            settings.Indent = true;
+            XmlWriter writer = XmlWriter.Create("C:\\test2\\Data.xml", settings);
+          
+
+            // Opens the document
+            writer.WriteStartDocument();
+            writer.WriteComment("App Launcher button settings");
+            writer.WriteStartElement("Button1");
+            writer.WriteElementString("text", launcherMenuButton1.GetButtonText());
+            writer.WriteElementString("path", launcherMenuButton1.GetButtonPath());
+            writer.WriteEndElement();
+            
+            writer.WriteEndDocument();
+            writer.Flush();
+            writer.Close();
+
+
+        }
+        
+        
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblFullDate.Text = DateTime.Now.ToString("dd MMM yyyy, H:mm:ss");
+
+
+        }
+
+        private void lblFullDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            WriteOutData();
+            Application.Exit();
+        }
+
+        
+    }
+}
