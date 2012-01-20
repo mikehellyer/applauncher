@@ -96,7 +96,7 @@ namespace AppLauncher
 
             for (int i=0; i < 24; i++)
             {
-                //iterate over buttons and save there contents
+                //iterate over buttons and save their contents
                 
                 
                 userNode = xmlDoc.CreateElement("button");
